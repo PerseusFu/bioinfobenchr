@@ -17,7 +17,7 @@
 
 #demo functions
 hello <- function() {
-  print("Hello, world! by Y.P.Fu")
+  print("Hello, world! by Y.P.Fu 2021.11.04")
 }
 
 
