@@ -1,10 +1,10 @@
 Package: bioinfobench
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
+Title: BioInfoBench R (Demo Edition)
+Version: 0.1.1
 Author: Y.P.Fu
 Maintainer: Y.P.Fu <fan_pku@163.com>
-Description: More about what it does (maybe more than one line)
+Description: BioinfobenchR can provid the total analysis protocol for bio info data, especially suit for those who want primiry check the result from bench work.
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8

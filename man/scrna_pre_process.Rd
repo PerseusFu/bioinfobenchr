@@ -2,7 +2,8 @@
 % Please edit documentation in R/hello.R
 \name{scrna_pre_process}
 \alias{scrna_pre_process}
-\title{Title}
+\title{Pre-progress for seurat object.
+This function include 3steps: percentfeature, normalize and reducion.}
 \usage{
 scrna_pre_process(sobj, reduce_method = "pca", batch_label = NULL, label = F)
 }
@@ -16,10 +17,11 @@ scrna_pre_process(sobj, reduce_method = "pca", batch_label = NULL, label = F)
 \item{s.obj}{seurat object}
 }
 \value{
-
+DimPlot, type depend on para "reduce_method"
 }
 \description{
-Title
+Pre-progress for seurat object.
+This function include 3steps: percentfeature, normalize and reducion.
 }
 \examples{
 data("pbmc3k")

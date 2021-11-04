@@ -12,25 +12,34 @@
 #   Install Package:           'Ctrl + Shift + B'
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
-
 #' @import Seurat SeuratObject tidyverse Matrix ggsci ggpubr harmony SeuratData
+#'
 
-#demo functions
-hello <- function() {
+
+
+
+
+
+
+
+hellobioinfobenr <- function() {
   print("Hello, world! by Y.P.Fu 2021.11.04")
 }
 
 
 
+
 #scRNAseq functions
-#' Title
+
+#' Pre-progress for seurat object.
+#' This function include 3steps: percentfeature, normalize and reducion.
 #'
 #' @param s.obj seurat object
 #' @param reduce_method choose from "pca","umap","tsne"
 #' @param batch_label if there may be batch effects, use meta data label
 #' @param label if output with label
 #'
-#' @return
+#' @return DimPlot, type depend on para "reduce_method"
 #' @export
 #'
 #' @examples
@@ -77,7 +86,7 @@ print(reduce_method)
 
 
 #other functions
-#' Title
+#' Sparse Matrix change to Normal Matrix
 #' this function turns sparse matrix into norm matrix, especially for those matrixs which can't be changed by as.matrix()
 #' @param mat
 #'
