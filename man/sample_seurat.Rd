@@ -2,8 +2,7 @@
 % Please edit documentation in R/hello.R
 \name{sample_seurat}
 \alias{sample_seurat}
-\title{Sample Seurat Object
- @description  can provide a subset which are randomly select from a given Seurat Object with a very rate.}
+\title{Sample Seurat Object}
 \usage{
 sample_seurat(sobj, sample_rate = 1, rep = F)
 }
@@ -18,8 +17,7 @@ sample_seurat(sobj, sample_rate = 1, rep = F)
 
 }
 \description{
-Sample Seurat Object
- @description  can provide a subset which are randomly select from a given Seurat Object with a very rate.
+can provide a subset which are randomly select from a given Seurat Object with a very rate.
 }
 \examples{
 data("pbmc3k")

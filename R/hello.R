@@ -86,7 +86,7 @@ print(reduce_method)
 
 
 #' Sample Seurat Object
-#'  @description  can provide a subset which are randomly select from a given Seurat Object with a very rate.
+#' @description  can provide a subset which are randomly select from a given Seurat Object with a very rate.
 #' @param sobj seurat object
 #' @param sample_rate sample rate. default is 1
 #' @param rep whether want repeated, default is False
