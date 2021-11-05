@@ -32,7 +32,7 @@ hellobioinfobenr <- function() {
 #scRNAseq functions
 
 #' Pre-progress for seurat object.
-#' This function include 3steps: percentfeature, normalize and reducion.
+#' @description This function include 3steps: percentfeature, normalize and reducion.
 #'
 #' @param s.obj seurat object
 #' @param reduce_method choose from "pca","umap","tsne"
@@ -86,7 +86,7 @@ print(reduce_method)
 
 
 #' Sample Seurat Object
-#' It can provide a subset which are randomly select from a given Seurat Object with a very rate.
+#'  @description  can provide a subset which are randomly select from a given Seurat Object with a very rate.
 #' @param sobj seurat object
 #' @param sample_rate sample rate. default is 1
 #' @param rep whether want repeated, default is False
@@ -108,7 +108,7 @@ sample_seurat <- function(sobj,sample_rate=1,rep=F){
 
 #other functions
 #' Sparse Matrix change to Normal Matrix
-#' this function turns sparse matrix into norm matrix, especially for those matrixs which can't be changed by as.matrix()
+#' @description  this function turns sparse matrix into norm matrix, especially for those matrixs which can't be changed by as.matrix()
 #' @param mat
 #'
 #' @return

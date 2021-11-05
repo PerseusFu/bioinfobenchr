@@ -3,7 +3,7 @@
 \name{sample_seurat}
 \alias{sample_seurat}
 \title{Sample Seurat Object
-It can provide a subset which are randomly select from a given Seurat Object with a very rate.}
+ @description  can provide a subset which are randomly select from a given Seurat Object with a very rate.}
 \usage{
 sample_seurat(sobj, sample_rate = 1, rep = F)
 }
@@ -19,7 +19,7 @@ sample_seurat(sobj, sample_rate = 1, rep = F)
 }
 \description{
 Sample Seurat Object
-It can provide a subset which are randomly select from a given Seurat Object with a very rate.
+ @description  can provide a subset which are randomly select from a given Seurat Object with a very rate.
 }
 \examples{
 data("pbmc3k")

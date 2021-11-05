@@ -2,8 +2,7 @@
 % Please edit documentation in R/hello.R
 \name{as_matrix}
 \alias{as_matrix}
-\title{Sparse Matrix change to Normal Matrix
-this function turns sparse matrix into norm matrix, especially for those matrixs which can't be changed by as.matrix()}
+\title{Sparse Matrix change to Normal Matrix}
 \usage{
 as_matrix(mat)
 }
@@ -14,7 +13,6 @@ as_matrix(mat)
 
 }
 \description{
-Sparse Matrix change to Normal Matrix
 this function turns sparse matrix into norm matrix, especially for those matrixs which can't be changed by as.matrix()
 }
 \examples{
