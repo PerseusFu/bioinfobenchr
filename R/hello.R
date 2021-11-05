@@ -107,8 +107,8 @@ print(reduce_method)
 #'
 sample_seurat <- function(sobj,sample_rate=1,rep=F){
   cell.ident <- colnames(sobj)
-  sample_cell.ident <- sample(cell.ident,sample_rate,replace = rep)
-  return(sobj[sample_cell.ident,])
+  sample_cell.ident <- sample(cell.ident,round(sample_rate*length(cell.ident)),replace = rep)
+  return(sobj[,sample_cell.ident])
 }
 
 
