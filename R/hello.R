@@ -85,6 +85,27 @@ print(reduce_method)
 
 
 
+#' Sample Seurat Object
+#' It can provide a subset which are randomly select from a given Seurat Object with a very rate.
+#' @param sobj seurat object
+#' @param sample_rate sample rate. default is 1
+#' @param rep whether want repeated, default is False
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' data("pbmc3k")
+#' sample_seurat(pbmc3k,sample_rate=0.5)
+#'
+sample_seurat <- function(sobj,sample_rate=1,rep=F){
+  cell.ident <- colnames(sobj)
+  sample_cell.ident <- sample(cell.ident,sample_rate,replace = rep)
+  return(sobj[sample_cell.ident,])
+}
+
+
+
 #other functions
 #' Sparse Matrix change to Normal Matrix
 #' this function turns sparse matrix into norm matrix, especially for those matrixs which can't be changed by as.matrix()
