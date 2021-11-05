@@ -12,7 +12,14 @@
 #   Install Package:           'Ctrl + Shift + B'
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
-#' @import Seurat SeuratObject tidyverse Matrix ggsci ggpubr harmony SeuratData
+#' @import Seurat
+#' @import SeuratObject
+#' @import tidyverse
+#' @import Matrix
+#' @import ggsci
+#' @import ggpubr
+#' @import harmony
+#' @import SeuratData
 #'
 
 
