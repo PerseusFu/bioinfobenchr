@@ -21,6 +21,7 @@
 #' @import harmony
 #' @import SeuratData
 #'
+#'
 
 
 
@@ -49,7 +50,7 @@ hellobioinfobenr <- function() {
 #' @export
 #'
 #' @examples
-#' data("pbmc3k")
+#' data("pbmc3k",package="pbmc3k.SeuratData")
 #' scrna_pre_process(pbmc3k)
 #'
 scrna_pre_process <- function(sobj,reduce_method="pca",batch_label=NULL,label=F){
@@ -101,7 +102,7 @@ print(reduce_method)
 #' @export
 #'
 #' @examples
-#' data("pbmc3k")
+#' data("pbmc3k",package="pbmc3k.SeuratData")
 #' sample_seurat(pbmc3k,sample_rate=0.5)
 #'
 sample_seurat <- function(sobj,sample_rate=1,rep=F){
